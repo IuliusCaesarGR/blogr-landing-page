@@ -1,0 +1,36 @@
+// ----- Variables -----
+
+// --- Fonts ---
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+$fontsize: 16px;
+$font-primary: 'Overpass', sans-serif;
+$font-secondary: 'Ubuntu', sans-serif;
+
+// --- Primary color ---
+$primary-CTA-text: hsl(356, 100%, 66%);
+$primary-CTA-hover-background: hsl(355, 100%, 74%);
+$primary-headings: hsl(208, 49%, 24%);
+
+// --- Neutral color
+$intro_body-text: hsl(0, 0%, 100%);
+$footer-text: hsl(240, 2%, 79%);
+$body-copy: hsl(207, 13%, 34%);
+$footer-background: hsl(240, 10%, 16%);
+
+// ----- Background gradient -----
+$gradient-intro-start: hsl(13, 100%, 72%);
+$gradient-intro-end: hsl(353, 100%, 62%);
+$gradient-body-start: hsl(237, 17%, 21%);
+$gradient-body-end: hsl(237, 23%, 32%);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    width: 100vw;
+}
+.secondary img, .third img, .fourth img{
+    width: 250px;
+}
