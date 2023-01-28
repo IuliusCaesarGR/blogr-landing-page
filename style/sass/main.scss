@@ -15,7 +15,7 @@
         height: 100%;
         padding: 45px 30px 0px;
         background-image:  url("./../../images/bg-pattern-intro-mobile.svg");
-        background-position-x: -300px ;
+        background-position-x: -290px ;
         background-position-y: -230px ;
         background-size: 1200px;
         background-repeat: no-repeat;
@@ -59,6 +59,10 @@
             font-family: $font-secondary;
             font-weight: 700;
             font-size: .9rem;
+            &:first-child{
+                background-color: $intro_body-text;
+                color: $primary-CTA-hover-background;
+            }
         }
     }
 }
