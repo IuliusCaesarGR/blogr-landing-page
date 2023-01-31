@@ -1,0 +1,27 @@
+.second{
+    width: 100%;
+    height: 1100px;
+    &__ilustration{
+        width: 100%;
+        margin: 40px auto;
+    }
+    & h2{
+        font-family: $font-primary;
+        text-align: center;
+        color: $primary-headings;
+        text-align: center;
+        padding: 0px 55px;
+    }
+    & p{
+        margin: 15px 0px;
+        color: $body-copy;
+        padding: 0px 30px;
+        text-align: center;
+        line-height: 30px;
+        font-family: $font-secondary;
+        font-weight: 400;
+    }
+    & p:nth-child(4){
+        margin-bottom: 40px;
+    }
+}
