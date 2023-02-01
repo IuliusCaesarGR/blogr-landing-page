@@ -5,10 +5,6 @@
   padding: 0;
 }
 
-.secondary img, .third img, .fourth img {
-  width: 250px;
-}
-
 .intro {
   width: 100vw;
   height: 600px;
@@ -120,6 +116,52 @@
 }
 .second p:nth-child(4) {
   margin-bottom: 40px;
+}
+
+.third {
+  width: 100vw;
+  height: 600px;
+  color: hsl(0deg, 0%, 100%);
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  margin: 300px 0 100px 0;
+  text-align: center;
+  background: linear-gradient(to bottom, hsl(237deg, 17%, 21%), hsl(237deg, 23%, 32%));
+}
+.third__info {
+  position: relative;
+  bottom: 200px;
+  padding: 0px 25px;
+}
+.third__info h1 {
+  font-size: 2rem;
+  line-height: 45px;
+  margin-bottom: 15px;
+}
+.third__info p {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 30px;
+}
+.third__ilustration {
+  border-top-right-radius: 100px;
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position-x: -110px;
+  background-position-y: -260px;
+  background-image: url("./../../images/bg-pattern-circles.svg");
+}
+.third__mobiles {
+  width: 100%;
+  position: relative;
+  bottom: 200px;
+}
+
+.fourth {
+  width: 100vw;
+  height: auto;
+}
+.fourth__ilustration {
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.css.map */
