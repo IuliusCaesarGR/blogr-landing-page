@@ -83,10 +83,16 @@
   }
 }
 .attribution {
-  font-size: 11px;
+  font-size: 1rem;
   text-align: center;
+  width: 100vw;
+  height: 60px;
+  background-color: hsl(240deg, 10%, 16%);
+  padding: 10px;
+  color: hsl(0deg, 0%, 100%);
 }
 .attribution a {
+  font-size: 1rem;
   color: hsl(228deg, 45%, 44%);
 }
 
@@ -124,7 +130,7 @@
   color: hsl(0deg, 0%, 100%);
   border-top-right-radius: 100px;
   border-bottom-left-radius: 100px;
-  margin: 300px 0 100px 0;
+  margin: 300px 0 20px 0;
   text-align: center;
   background: linear-gradient(to bottom, hsl(237deg, 17%, 21%), hsl(237deg, 23%, 32%));
 }
@@ -162,6 +168,54 @@
 }
 .fourth__ilustration {
   width: 100%;
+  margin: 40px auto;
+}
+.fourth h2 {
+  font-family: "Overpass", sans-serif;
+  text-align: center;
+  color: hsl(208deg, 49%, 24%);
+  text-align: center;
+  padding: 0px 55px;
+}
+.fourth p {
+  margin: 15px 0px;
+  color: hsl(207deg, 13%, 34%);
+  padding: 0px 30px;
+  text-align: center;
+  line-height: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+.fourth p:nth-child(4) {
+  margin-bottom: 40px;
+}
+
+footer {
+  width: 100vw;
+  height: 750px;
+  background-color: hsl(240deg, 10%, 16%);
+  text-align: center;
+  padding: 50px 0px;
+  border-top-right-radius: 100px;
+  margin-top: 100px;
+}
+footer img {
+  width: 90px;
+  margin-bottom: 50px;
+}
+footer h4 {
+  margin-bottom: 30px;
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Overpass", sans-serif;
+}
+footer ul {
+  margin-bottom: 40px;
+  list-style: none;
+}
+footer ul li a {
+  color: hsl(240deg, 2%, 79%);
+  text-decoration: none;
+  line-height: 1.5rem;
 }
 
 /*# sourceMappingURL=index.css.map */

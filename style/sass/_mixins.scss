@@ -1,6 +1,4 @@
-.fourth{
-    width: 100vw;
-    height: auto;
+@mixin box{
     &__ilustration{
         width: 100%;
         margin: 40px auto;

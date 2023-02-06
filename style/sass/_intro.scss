@@ -77,9 +77,15 @@
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 1rem;
     text-align: center;
+    width: 100vw;
+    height: 60px;
+    background-color: $footer-background;
+    padding: 10px;
+    color: $intro_body-text;
     a{
+        font-size: 1rem;
         color: hsl(228, 45%, 44%);
     }
 }
